@@ -1,0 +1,17 @@
+{
+    "name": "currency_comparison",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo Test command not set up!"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-plugin-transform-class-properties": "^6.24.1"
+    }
+  }
+  
