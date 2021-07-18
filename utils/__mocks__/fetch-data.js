@@ -1,6 +1,8 @@
-const response = {
-    status: "Mock",
-    data: {}
-  };
-  
-  export default jest.fn(() => Promise.resolve(response));
+const fetchData = jest.fn(() =>{
+    return Promise.resolve({
+     status: "Mock",
+     data: {}
+     })
+   })
+
+export default fetchData
